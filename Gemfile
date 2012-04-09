@@ -17,6 +17,11 @@ end
 
 gem 'jquery-rails'
 gem 'parse_resource', :git => 'git@github.com:adelevie/parse_resource.git'
+gem 'omniauth'
+gem 'omniauth-dropbox'
+gem 'dropbox-api'
+
+gem "twitter-bootstrap-rails"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

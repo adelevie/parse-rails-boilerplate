@@ -10,18 +10,15 @@
         <% end %>  
       </ul>  
     </div>  
-  <% end %>  
-  <p>  
-    <%= f.label :email %><br />  
-    <%= f.text_field :username %>  
-  </p>  
-  <p>  
-    <%= f.label :password %><br />  
-    <%= f.password_field :password %>  
-  </p>  
-  <p>  
-    <%= f.label :password_confirmation %>  
-    <%= f.password_field :password_confirmation %>  
-  </p>  
+  <% end %>   
+    <%= f.label :email %> 
+    <%= f.text_field :username %>
+
+    <%= f.label :password %>  
+    <%= f.password_field :password %>
+     
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
+  <br /> 
   <p class="button"><%= f.submit %></p>  
 <% end %>  
